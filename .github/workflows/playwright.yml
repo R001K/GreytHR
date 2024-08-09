@@ -2,7 +2,7 @@ name: Playwright Tests
 
 on:
   schedule:
-    - cron: '0 10,20 * * *'
+    - cron: '0 4,14 * * *'
 
 jobs:
   test:
