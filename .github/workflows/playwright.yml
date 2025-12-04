@@ -1,6 +1,7 @@
 name: Playwright Tests
 
 on:
+  workflow_dispatch:   # <-- This allows instant manual run
   schedule:
     # 11:00 AM IST → 05:30 UTC
     - cron: '30 5 * * 1-5'
