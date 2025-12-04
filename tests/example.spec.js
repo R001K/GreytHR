@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 test('Greyt HR ', async ({ page }) => {
-  await page.goto('https://panorama.greythr.com//');
+  await page.goto('https://panorama.greythr.com/');
   await page.locator('[name="username"]').fill('PSS094')
   await page.locator('[placeholder="Password"]').fill('pano90AA@@')
   await page.locator('[type="submit"]').click();
